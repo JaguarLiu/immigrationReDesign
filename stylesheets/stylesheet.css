@@ -12,7 +12,10 @@ body {
 h1,h2,h3,h4,h5,h6{
   font-family: "cwTeXHei"," Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.title{
+.title,
+.mdl-layout__title, .mdl-layout-title,
+.mdl-list__item 
+{
   font-family: "cwTeXHei"," Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a {
@@ -159,7 +162,16 @@ ul.menu > li.open span {
 @media screen and (max-width: 42em) {
   .project-tagline {
     font-size: 1rem; } }
-
+.page-content{
+  max-width: 1280px;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.page-content h3{
+  font-size: 28px;
+  line-height: 40px;
+}
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
