@@ -15,24 +15,27 @@
     </head>
     <body>
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <header class="mdl-layout__header mdl-layout__header--waterfall im-header">
+            <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll im-header">
                 <div class="mdl-layout__header-row">
-                    <!-- Title -->
-                    <span class="mdl-layout-title">中華民國內政部移民署</span>
+                    <select>
+                        <option value="volvo">Language</option>
+                    </select>
                     <!-- Add spacer, to align navigation to the right -->
                     <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                        <label class="mdl-button mdl-js-button mdl-button--icon"
+                               for="search">
+                            <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" name="sample" id="search">
+                        </div>
+                    </div>
                     <!-- Navigation. We hide it in small screens. -->
                     <nav class="mdl-navigation mdl-layout--large-screen-only ">
-                        <a class="mdl-navigation__link text-grey" href="">網站資訊</a>
-                        <a class="mdl-navigation__link text-grey" href="">各服務站連結</a>
-                        <!--<a class="mdl-navigation__link text-grey" href="">申辦專區</a>-->
-                        <a class="mdl-navigation__link text-grey" href="">申請進度</a>
-                        <a class="mdl-navigation__link text-grey" href="">便民服務</a>
-                        <a class="mdl-navigation__link text-grey" href="">互動專區</a>
+                        <a class="mdl-navigation__link" href=""><span class="icon-fb"></span></a>
+                        <a class="mdl-navigation__link" href=""><span class="icon-mail"></span></a>
                     </nav>
-                </div>
-                <div class="mdl-layout__header-row">
-                    <img src="images/EDM3.png"/>
                 </div>
             </header>
             <div class="mdl-layout__drawer mdl-layout--small-screen-only">
@@ -46,12 +49,17 @@
                     <a class="mdl-navigation__link text-grey" href="">互動專區</a>
                 </nav>
             </div>
+            <div class="cover-bg">
+                <div class="cover-bg3"></div>
+            </div>
             <main class="mdl-layout__content">
-                <section class="page-header">
+                <section class="cover">
+
                     <h1 class="project-name">大陸港澳地區短期入台線上申請</h1>
                     <h2 class="project-tagline"></h2>
                     <a href="http://www.immigration.gov.tw/mp.asp?mp=mt" class="btn">進入</a>
                 </section>
+
                 <div class="page-content">
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--4-col">

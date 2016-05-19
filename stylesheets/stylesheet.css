@@ -21,10 +21,7 @@ h1,h2,h3,h4,h5,h6{
 a {
     color: #1e6bb8;
     text-decoration: none; }
-.header-background{
-        background: url('../images/EDM3.png') center / cover;
 
-}
 .im-header{
     background-color: #fff;
     color: #333;
@@ -116,19 +113,59 @@ ul.menu > li.open span {
 .page-header {
     color: #fff;
     text-align: center;
-}
 
+}
+.cover-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+    width: 100%;
+    height: 1042px;
+}
+.cover{
+    width: 100%;
+    height: 1280px;
+    display: table;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    text-align: center;
+}
+.cover-bg3{
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url('../images/EDM3.png') center / cover;
+    height: 1042px;
+}
+.icon-fb
+{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url('../images/icon-top-FB.png') center / cover;
+}
+.icon-mail
+{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url('../images/icon-top-mail.png') center / cover;
+}
+/*
 @media screen and (min-width: 64em) {
-    .page-header {
-        padding: 5rem 6rem; } }
+.page-header {
+padding: 0 } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-    .page-header {
-        padding: 3rem 4rem; } }
+.page-header {
+padding: 3rem 4rem; } }
 
 @media screen and (max-width: 42em) {
-    .page-header {
-        padding: 2rem 1rem; } }
+.page-header {
+padding: 2rem 1rem; } }
+*/
 
 .project-name {
     margin-top: 64px;
