@@ -26,7 +26,7 @@ a {
 .im-header
 {
     margin: 0 auto;
-    
+    max-width: 1280px;
 }
 .mdl-layout__header-row .text-grey,
 .mdl-layout__header .mdl-layout__drawer-button{
@@ -78,11 +78,11 @@ ul.menu > li.open span {
     top: 0;
     z-index: -100;
     width: 100%;
-    height: 1042px;
+    height: 956px;
 }
 .cover{
     width: 100%;
-    height: 1280px;
+    height: 956px;
     display: table;
     position: relative;
     z-index: 0;
@@ -94,7 +94,7 @@ ul.menu > li.open span {
     left: 0;
     top: 0;
     background: url('../images/EDM3.png') center / cover;
-    height: 1042px;
+    height: 956px;
 }
 .cover-bottom{
     max-width: 800px;
@@ -110,7 +110,7 @@ ul.menu > li.open span {
 	background-color: #fff;
     opacity: 0.5;
     height: 60px;
-    top: 918px;;
+    top: 832px;;
     position: absolute;
     width: 100%;
 }
