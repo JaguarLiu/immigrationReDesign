@@ -36,7 +36,7 @@ a:hover{
 }
 .mdl-layout__header-row .text-grey,
 .mdl-layout__header .mdl-layout__drawer-button{
-    color: #333;
+    color: #fff;
 }
 .top-line{
     border-top: red solid 2px;
@@ -51,23 +51,35 @@ a:hover{
     top: 0;
     z-index: -100;
     width: 100%;
-    height: 956px;
 }
 .cover{
     width: 100%;
-    height: 956px;
     display: table;
     position: relative;
     z-index: 0;
     color: #fff;
     text-align: center;
 }
+
 .cover-bg3{
     width: 100%;
     left: 0;
     top: 0;
     background: url('../images/EDM3.png') center / cover;
+
+}
+.cover-bg,
+.cover,
+.cover-bg3 {
     height: 956px;
+}
+
+@media screen and (max-width: 42em) {
+    .cover-bg,
+    .cover,
+    .cover-bg3 {
+        height: 568px;
+    }
 }
 .cover-bottom{
     max-width: 800px;
@@ -80,12 +92,23 @@ a:hover{
     line-height: 140px;
 }
 .bottom-line {
-	background-color: #fff;
+    background-color: #fff;
     opacity: 0.5;
     height: 60px;
-    top: 832px;;
-    position: absolute;
+    top: 155px;
+    position: relative;
     width: 100%;
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .bottom-line{
+        top: 410px;
+    }
+}
+@media screen and (max-width: 42em) {
+    .bottom-line{
+        top: 53px;
+        height: 30px;
+    }
 }
 .option-1 {
     background: url('../images/icon-top-01.png') center no-repeat;
@@ -104,18 +127,18 @@ a:hover{
     background: url('../images/cover_logo.png') center no-repeat;
     color: #79C2C4;
     margin:100px auto 20px;
-    
+
 }
 .cover .logo h2{
     line-height: 200px;
     font-weight: 200;
 }
 .cover .title-1 {
-	font-size: 28px;
+    font-size: 28px;
     margin: 0px;
 }
 .cover .title-2{
-	font-size: 14px;
+    font-size: 14px;
     margin: 0px;
 }
 .cover h1{
@@ -123,7 +146,7 @@ a:hover{
     margin: 0px;
 }
 .cover .title-3{
-	font-size: 18px;
+    font-size: 18px;
 }
 .icon-fb
 {
@@ -145,7 +168,7 @@ a:hover{
     color:#fff;
     width: 200px;
     height: 32px;
-        
+
 }
 .content-block1 {
     background:#0CA7A9 url('../images/icon-top-05.png') center no-repeat;
@@ -178,7 +201,73 @@ a:hover{
     background: url('../images/icon-top-11.png') center left no-repeat;
     padding-left: 20px;
     overflow: hidden;
+    font-size: 18px;
 }
+.mdl-tabs .scroll{
+    overflow: scroll;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.mdl-tabs__tab-bar a{
+    overflow: visible;
+    white-space: nowrap;
+    min-width: 20%;
+    padding: 0px;
+}
+.mdl-tabs__panel ul {
+    margin: 5px 0 0;
+    padding: 0 5px 0 5px;
+}
+.mdl-tabs__panel ul > li{
+    padding: 8px 0px 8px 5px;
+    border-bottom: 1px dotted #aaa;
+    list-style: none;
+    margin: 0px;
+    position: relative;
+}
+.date-block {
+    position: absolute;
+    margin-right: 10px;
+}
+.list-content{
+    margin-left: 100px;
+}
+.mdl-tabs__tab-bar a,
+.date-block,
+.list-content{
+    font-size: 18px;
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .mdl-tabs__tab-bar a,
+    .date-block,
+    .list-content{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 42em) {
+    .mdl-tabs__tab-bar a,
+    .date-block,
+    .list-content{
+        font-size: 14px;
+    }
+}
+.mdl-logo img{
+    max-width: 100px;
+    max-height: 50px
+}
+.mdl-layout__header-row .mdl-navigation__link{
+    padding: 0 12px;
+}
+.mdl-layout__container{
+    position: relative;
+}
+/*
+@media screen and (max-width: 1024px){
+    .mdl-layout__drawer-button{
+        color: #fff;
+    }
+}
+*/
 
 .menu{
     margin: 0;
