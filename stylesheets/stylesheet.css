@@ -59,17 +59,34 @@ a:hover{
     z-index: 0;
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px #000;
+    
 }
+.cover-bg1{
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url('../images/31040496_960.jpg') center / cover;
 
+}
+.cover-bg2{
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url('../images/36961551_960.jpg') center / cover;
+
+}
 .cover-bg3{
     width: 100%;
     left: 0;
     top: 0;
-    background: url('../images/EDM3.png') center / cover;
+    background: url('../images/47356182_960.jpg') center / cover;
 
 }
 .cover-bg,
 .cover,
+.cover-bg1,
+.cover-bg2 ,
 .cover-bg3 {
     height: 956px;
 }
@@ -77,6 +94,8 @@ a:hover{
 @media screen and (max-width: 42em) {
     .cover-bg,
     .cover,
+    .cover-bg1,
+    .cover-bg2 ,
     .cover-bg3 {
         height: 568px;
     }
@@ -128,6 +147,9 @@ a:hover{
     color: #79C2C4;
     margin:100px auto 20px;
 
+}
+.logo img{
+    width: 235px;
 }
 .cover .logo h2{
     line-height: 200px;
@@ -263,9 +285,9 @@ a:hover{
 }
 /*
 @media screen and (max-width: 1024px){
-    .mdl-layout__drawer-button{
-        color: #fff;
-    }
+.mdl-layout__drawer-button{
+color: #fff;
+}
 }
 */
 
